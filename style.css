@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+
+  .menu { 
+    list-style: none;
+    display: flex;
+  }
+
+  .menu li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    color: blue;     
+  }
+
+  a {   
+     text-decoration: none;
+  }
+
+  .hey {
+    color: paleturquoise;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-bottom: 2px solid paleturquoise
+  }
+
+  .hey:hover {
+    background-color: rgb(0, 169, 236);
+    color: white;
+    box-shadow: 5px 10px 30px rgba(1, 153, 255, 0.616);
+    transition: all ease 0.2s;
+  }
+
+
+  .image {
+    width: 500px;
+    height: 500px;
+  }
+
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .Content {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-text {
+    width: 500px;
+  }
+
+  .main-text h1 {
+    font-size: 3.5em;
+    color: black;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+  }
+
+  .main-text h2 {
+    color: grey;
+  }
+  .main-text p{
+    font-size: 1em;
+    color: black;
+  }
+
+  .button {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(1, 153, 255, 0.616); 
+  }
+
+  .button:hover {
+    background-color: rgb(0, 217, 255);
+    transition: all ease 0.2s;
+  }
+
+  .menu li a:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(1, 153, 255, 0.616);
+    transition: all ease 0.2s;
+  }
